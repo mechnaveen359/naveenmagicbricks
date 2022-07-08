@@ -1,0 +1,99 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3667812400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Teststeps.openBrowser()"
+            }
+          }
+        ],
+        "line": 208,
+        "name": "Success in getting answer of any link under Frequently Asked Questions section",
+        "description": "",
+        "id": "validate-checkout-functionality-of-magicbricks-application-of-help-center-page;success-in-getting-answer-of-any-link-under-frequently-asked-questions-section",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15740526901,
+              "status": "passed"
+            },
+            "line": 209,
+            "name": "User is on help center page as Agent",
+            "match": {
+              "location": "Teststeps.user_is_on_help_center_page_as_Agent()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6837621400,
+              "status": "passed"
+            },
+            "line": 210,
+            "name": "User click on view more two",
+            "match": {
+              "location": "Teststeps.user_click_on_view_more_two()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18415472900,
+              "status": "passed"
+            },
+            "line": 211,
+            "name": "Click on any link under Frequently Asked Questions of Agent",
+            "match": {
+              "location": "Teststeps.click_on_any_link_under_Frequently_Asked_Questions_of_Agent()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 516201,
+              "status": "passed"
+            },
+            "line": 212,
+            "name": "Navigates to next page one",
+            "match": {
+              "location": "Teststeps.navigates_to_next_page_one()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@magicbricks"
+          },
+          {
+            "name": "@successful_getting_answer_from_Frequently_Asked_Questions_as_Agent"
+          }
+        ]
+      }
+    ],
+    "name": "Validate checkout functionality of magicbricks application of help center page",
+    "description": "",
+    "id": "validate-checkout-functionality-of-magicbricks-application-of-help-center-page",
+    "keyword": "Feature",
+    "uri": "C:/eclipsce/com.magicbricks_naveen/cucumber/magicbricks3.feature",
+    "tags": [
+      {
+        "name": "@magicbricks",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
